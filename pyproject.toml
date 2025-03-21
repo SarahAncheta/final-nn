@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+	"flit_core >=3.2,<4",
+	]
+build-backend = "flit_core.buildapi"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[project]
+name = "nn"
+requires-python = ">3.7"
+authors = [{name = "Sarah Ancheta", email = "sarah.ancheta@ucsf.edu"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pytest>=3.0",
+    "numpy>=1.20.1",
+    "matplotlib>=3.10.0",
+    "scikit-learn>=1.6.1",
+]
+
+[project.urls]
+Home = "https://github.com/SarahAncheta/final-nn"
