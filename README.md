@@ -1,5 +1,8 @@
 # Final project: neural network
 
+## Sarah Ancheta's GitHub actions Badge:
+[![Project Tests](https://github.com/SarahAncheta/final-nn/actions/workflows/python-app.yml/badge.svg)](https://github.com/SarahAncheta/final-nn/actions/workflows/python-app.yml)
+
 ## Overview
 
 In this assignment, you will implement a neural network class from (almost) scratch. You will then apply your class to create both:
